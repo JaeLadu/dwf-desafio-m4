@@ -1,0 +1,40 @@
+* {
+   box-sizing: border-box;
+}
+body {
+   margin: 0;
+}
+.welcome {
+   height: 100vh;
+   background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fprincetoninternetmarketing.com%2Fwp-content%2Fuploads%2F2015%2F07%2Fweb_developer_wallpaper__code__by_plusjack-d7bmt54.x72725.jpg&f=1&nofb=1);
+   background-size: cover;
+   background-position: center;
+}
+.welcome__titles-container {
+   height: 90%;
+   color: black;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.welcome__title {
+   margin: 0;
+}
+.welcome__subtitle {
+   margin-top: 0.5rem;
+}
+.about-me {
+   height: 90vh;
+   background-color: #141414;
+   padding: 2.5rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.about-me__text-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
