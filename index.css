@@ -18,23 +18,84 @@ body {
    align-items: center;
    justify-content: center;
 }
-.welcome__title {
-   margin: 0;
-}
 .welcome__subtitle {
    margin-top: 0.5rem;
 }
 .about-me {
-   height: 90vh;
+   min-height: 90vh;
    background-color: #141414;
    padding: 2.5rem;
    display: flex;
    justify-content: space-between;
    align-items: center;
 }
+@media screen and (min-width: 769px) {
+   .about-me {
+      min-height: 50vh;
+   }
+}
+.about-me__image {
+   display: none;
+}
+@media screen and (min-width: 769px) {
+   .about-me__image {
+      display: initial;
+      max-width: 50%;
+   }
+}
 .about-me__text-container {
    display: flex;
    flex-direction: column;
    justify-content: space-between;
+   align-items: center;
+}
+.about-me__title {
+   margin: 1em 0;
+}
+.mi-services {
+   padding: 2.5rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+@media screen and (min-width: 769px) {
+   .mi-services {
+      min-height: 100vh;
+   }
+}
+.mi-services__title {
+   margin: 2em 0;
+}
+@media screen and (min-width: 769px) {
+   .mi-services__title {
+      font-size: 3rem;
+   }
+}
+.mi-services__services-container {
+   display: flex;
+   flex-direction: column;
+}
+@media screen and (min-width: 769px) {
+   .mi-services__services-container {
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+   }
+   .service {
+      width: 25%;
+   }
+   .service__img {
+      width: 50% 100%;
+      height: 50%;
+   }
+}
+.service__title {
+   margin: 1.5rem 0 0.5rem;
+}
+.contact-me {
+   min-height: 100vh;
+   background-color: black;
+   padding: 1.5rem;
+   display: flex;
    align-items: center;
 }
