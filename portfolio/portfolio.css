@@ -12,6 +12,7 @@ body {
 }
 @media screen and (min-width: 769px) {
    .welcome {
+      /* esto está copiado de figma, todavía no aprendimos a hacerlo */
       background-image: linear-gradient(
          107.17deg,
          #b32f2f 29.35%,
@@ -60,7 +61,7 @@ body {
 }
 @media screen and (min-width: 769px) {
    .job {
-      width: 25%;
+      width: 33%;
    }
 }
 .job__img {
