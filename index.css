@@ -6,7 +6,7 @@ body {
 }
 .welcome {
    height: 100vh;
-   background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fprincetoninternetmarketing.com%2Fwp-content%2Fuploads%2F2015%2F07%2Fweb_developer_wallpaper__code__by_plusjack-d7bmt54.x72725.jpg&f=1&nofb=1);
+   background-image: url(https://i.ytimg.com/vi/mQ_66xjOctU/maxresdefault.jpg);
    background-size: cover;
    background-position: center;
 }
@@ -80,13 +80,6 @@ body {
       flex-direction: row;
       justify-content: space-evenly;
       flex-wrap: wrap;
-   }
-   .service {
-      width: 25%;
-   }
-   .service__img {
-      width: 50% 100%;
-      height: 50%;
    }
 }
 .service__title {

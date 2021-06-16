@@ -43,12 +43,15 @@
    font-size: 1.5rem;
    margin: 0;
 }
-.large-bold {
-   font-weight: 700;
-   margin: 0;
-}
+.large-bold,
 .large-bold--black {
    font-weight: 700;
+}
+.large-bold--red {
+   color: #fc6f50;
+   font-family: "Poppins";
+   font-weight: 700;
+   font-size: 1.5rem;
    margin: 0;
 }
 .body {

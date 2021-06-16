@@ -7,10 +7,12 @@
 }
 @media screen and (min-width: 769px) {
    .service {
-      min-width: 25%;
+      width: 30%;
    }
 }
 .service__img {
    width: 100%;
-   height: 25%;
+   height: 50%;
+   max-width: 200px;
+   max-height: 200px;
 }

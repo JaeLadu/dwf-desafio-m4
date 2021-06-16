@@ -1,0 +1,53 @@
+* {
+   box-sizing: border-box;
+}
+body {
+   margin: 0;
+}
+.welcome {
+   background-color: black;
+   height: 45vh;
+   display: flex;
+   flex-direction: column;
+}
+@media screen and (min-width: 769px) {
+   .welcome {
+      background-image: linear-gradient(
+         107.17deg,
+         #958c40 29.35%,
+         rgba(156, 0, 210, 0.8) 78.73%
+      );
+      min-height: 80vh;
+   }
+}
+.welcome__titles-container {
+   flex-grow: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+@media screen and (min-width: 769px) {
+   .welcome__titles-container {
+      justify-content: flex-start;
+      padding-left: 2em;
+   }
+}
+.mi-services {
+   background-color: black;
+   display: flex;
+   align-items: center;
+   min-height: 90vh;
+}
+.mi-services__services-container {
+   padding: 3rem;
+}
+@media screen and (min-width: 769px) {
+   .mi-services__services-container {
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      flex-wrap: wrap;
+   }
+}
