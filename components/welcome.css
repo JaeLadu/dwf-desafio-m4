@@ -1,0 +1,27 @@
+.welcome {
+   display: grid;
+   grid-template-rows: 13% 1fr;
+   background-color: black;
+   background-image: url(https://media-exp1.licdn.com/dms/image/C4D1BAQFWEpYdauBLAA/company-background_10000/0/1530552056983?e=2159024400&v=beta&t=_1b58d0OIs4XsZ5No_CzS2e90OmY3Dr0mOKw9dw-smY);
+   background-position: top center;
+   background-size: cover;
+   height: 100vh;
+}
+
+.welcome__titles-container {
+   font-family: "Montserrat", sans-serif;
+   font-weight: 700;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   color: white;
+}
+.welcome__title {
+   font-size: 48px;
+   margin: 10px;
+}
+.welcome__subtitle {
+   font-size: 36px;
+   margin: 0;
+}
