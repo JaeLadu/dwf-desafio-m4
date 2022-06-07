@@ -1,7 +1,7 @@
 function mountHeader(containerEl) {
    containerEl.innerHTML = `
    <header class="header">
-            <a href="/" class="header__logo">JAE</a>
+            <a href="../index.html" class="header__logo">JAE</a>
             <nav class="navigation-bar">
                <div class="navigation-bar__burguer-container">
                   <div class="navigation-bar__burguer-slice"></div>
