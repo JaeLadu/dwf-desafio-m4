@@ -29,4 +29,26 @@ body {
    min-height: 90vh;
    background-color: #fafafa;
    color: #2c2c2c;
+   overflow: auto;
+   padding: 56px;
+}
+.services__title {
+   margin-bottom: 50px;
+}
+.services__container {
+   display: grid;
+   row-gap: 100px;
+}
+.contact {
+   min-height: 90vh;
+   background-color: #141414;
+   color: #fafafa;
+   padding: 20px;
+}
+.contact__title {
+   text-align: center;
+   font-family: "Montserrat";
+   font-weight: 700;
+   font-size: 32px;
+   margin: 35px 0;
 }

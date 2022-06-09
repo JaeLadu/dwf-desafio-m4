@@ -3,7 +3,7 @@ function mountMinimailService(service, containerEl) {
    const description = service.fields.description;
 
    const serviceEl = document.createElement("div");
-   serviceEl.classList.add("service");
+   serviceEl.classList.add("service--minimal");
    serviceEl.innerHTML = `
 <img
    src="../elements/desktop.svg"
