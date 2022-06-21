@@ -1,6 +1,5 @@
 function mountHeader(containerEl) {
    containerEl.innerHTML = `
-   <header class="header">
             <a href="../index.html" class="header__logo">JAE</a>
             <nav class="navigation-bar">
                <div class="navigation-bar__burguer-container">
@@ -25,7 +24,6 @@ function mountHeader(containerEl) {
                   </a>
                </div>
             </nav>
-         </header>
    `;
    const burguerEl = containerEl.querySelector(
       ".navigation-bar__burguer-container"
