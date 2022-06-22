@@ -1,6 +1,6 @@
 function mountHeader(containerEl) {
    containerEl.innerHTML = `
-            <a href="../index.html" class="header__logo">JAE</a>
+            <a href="/" class="header__logo">JAE</a>
             <nav class="navigation-bar">
                <div class="navigation-bar__burguer-container">
                   <div class="navigation-bar__burguer-slice"></div>
@@ -13,13 +13,13 @@ function mountHeader(containerEl) {
                      alt="close"
                      class="navigation-bar__close"
                   />
-                  <a href="../pages/portfolio.html" class="navigation-bar__link">
+                  <a href="./portfolio.html" class="navigation-bar__link">
                      Portfolio
                   </a>
-                  <a href="../pages/servicios.html" class="navigation-bar__link">
+                  <a href="./services.html" class="navigation-bar__link">
                      Servicios
                   </a>
-                  <a href="../pages/contacto.html" class="navigation-bar__link">
+                  <a href="./contact.html" class="navigation-bar__link">
                      Contacto
                   </a>
                </div>

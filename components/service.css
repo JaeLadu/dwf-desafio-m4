@@ -1,16 +1,29 @@
-.service--minimal {
+.service--minimal,
+.service {
    text-align: center;
 }
-.service__logo {
+.service--minimal__logo,
+.service__image {
    margin: 0 auto;
 }
+.service--minimal__title,
 .service__title {
    font-family: "Poppins", sans-serif;
    font-weight: 700;
    font-size: 24px;
 }
+.service--minimal__description,
 .service__description {
    font-family: "Poppins";
    font-weight: 400;
    font-size: 16px;
+}
+.service {
+   color: white;
+   margin-bottom: 105px;
+}
+.service__image {
+   max-height: 180px;
+   max-width: 290px;
+   vertical-align: middle;
 }
