@@ -1,12 +1,12 @@
 (() => {
    const headerEl = document.querySelector(".header");
-   const servicesContainerEl = document.querySelector(".services__container");
+   const jobsContainerEl = document.querySelector(".jobs__container");
    const footerEl = document.querySelector("footer");
 
    mountHeader(headerEl);
-   getServices().then((res) => {
+   getJobs().then((res) => {
       for (const e of res) {
-         mountFullService(e, servicesContainerEl);
+         mountJob(e, jobsContainerEl);
       }
    });
    mountFooter(footerEl);
