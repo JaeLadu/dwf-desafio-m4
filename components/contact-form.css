@@ -6,6 +6,7 @@ form.contact-form > label {
    font-family: "Poppins";
    font-weight: 400;
    font-size: 13px;
+   color: white;
 }
 .contact-form__input-field,
 .contact-form__input-field--textarea {

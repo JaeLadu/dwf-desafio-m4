@@ -42,13 +42,13 @@ body {
 .contact {
    min-height: 90vh;
    background-color: #141414;
-   color: #fafafa;
    padding: 70px 20px;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
 }
 .contact__title {
+   color: white;
    text-align: center;
    font-family: "Montserrat";
    font-weight: 700;
