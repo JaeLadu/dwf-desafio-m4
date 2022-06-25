@@ -2,6 +2,11 @@
 .service {
    text-align: center;
 }
+@media (min-width: 950px) {
+   .service--minimal {
+      max-width: 20%;
+   }
+}
 .service--minimal__logo,
 .service__image {
    margin: 0 auto;

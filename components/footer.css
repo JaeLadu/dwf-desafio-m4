@@ -6,6 +6,19 @@
    text-align: center;
    justify-content: center;
 }
+@media (min-width: 950px) {
+   .footer {
+      max-height: 400px;
+   }
+}
+@media (min-width: 950px) {
+   .footer__container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 0 80px;
+   }
+}
 .footer__title {
    font-family: "Orbitron", sans-serif;
    font-weight: 500;
@@ -14,11 +27,21 @@
    text-decoration: none;
    /* margin-bottom: 100px; */
 }
+@media (min-width: 950px) {
+   .footer__title {
+      margin: auto 0;
+   }
+}
 .social-links-container {
    display: flex;
    flex-direction: column;
    justify-content: space-between;
    margin-top: 35px;
+}
+@media (min-width: 950px) {
+   .social-links-container {
+      margin-top: 0px;
+   }
 }
 .social-link {
    font-family: "Poppins", sans-serif;

@@ -7,6 +7,17 @@
    background-size: cover;
    height: 100vh;
 }
+@media (min-width: 720px) {
+   .welcome {
+      display: grid;
+      grid-template-rows: minmax(100px, 20%) 1fr;
+      background-color: black;
+      background-image: url(https://media-exp1.licdn.com/dms/image/C4D1BAQFWEpYdauBLAA/company-background_10000/0/1530552056983?e=2159024400&v=beta&t=_1b58d0OIs4XsZ5No_CzS2e90OmY3Dr0mOKw9dw-smY);
+      background-position: top center;
+      background-size: cover;
+      height: 90vh;
+   }
+}
 
 .welcome__titles-container {
    font-family: "Montserrat", sans-serif;

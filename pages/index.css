@@ -13,6 +13,31 @@ body {
    flex-direction: column;
    justify-content: center;
 }
+@media (min-width: 950px) {
+   .who-i-am {
+      min-height: 80vh;
+      background-color: #ffffff;
+      color: #2c2c2c;
+      padding: 0;
+      display: grid;
+      grid-template-columns: 30% 1fr;
+      grid-template-rows: 25% 1fr;
+      row-gap: 25px;
+      column-gap: 50px;
+   }
+}
+.who-i-am__image {
+   display: none;
+}
+@media (min-width: 950px) {
+   .who-i-am__image {
+      display: initial;
+      height: 90%;
+      grid-row: 1 / span 2;
+      align-self: end;
+      justify-self: end;
+   }
+}
 .who-i-am__title,
 .services__title {
    text-align: center;
@@ -20,10 +45,23 @@ body {
    font-weight: 700;
    font-size: 32px;
 }
+@media (min-width: 950px) {
+   .who-i-am__title {
+      text-align: start;
+      align-self: end;
+      margin: 0;
+   }
+}
 .who-i-am__content {
    font-family: "Poppins", sans-serif;
    font-weight: 400;
    font-size: 16px;
+}
+@media (min-width: 950px) {
+   .who-i-am__content {
+      font-size: 24px;
+      max-width: 70%;
+   }
 }
 .services {
    min-height: 90vh;
@@ -32,12 +70,36 @@ body {
    overflow: auto;
    padding: 56px;
 }
+@media (min-width: 950px) {
+   .services {
+      padding: 60px 80px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+   }
+}
 .services__title {
    margin-bottom: 50px;
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
+}
+@media (min-width: 950px) {
+   .services__title {
+      font-size: 48px;
+      margin-bottom: 0px;
+   }
 }
 .services__container {
    display: grid;
    row-gap: 100px;
+}
+@media (min-width: 950px) {
+   .services__container {
+      display: flex;
+      justify-content: space-between;
+   }
 }
 .contact {
    min-height: 90vh;
@@ -45,7 +107,15 @@ body {
    padding: 70px 20px;
    display: flex;
    flex-direction: column;
-   justify-content: space-between;
+   justify-content: space-evenly;
+}
+@media (min-width: 950px) {
+   .contact {
+      flex-direction: row;
+      justify-content: center;
+      padding: 100px;
+      max-height: 660px;
+   }
 }
 .contact__title {
    color: white;
@@ -54,4 +124,14 @@ body {
    font-weight: 700;
    font-size: 32px;
    margin: 0 0 35px 0;
+}
+@media (min-width: 950px) {
+   .contact__form-container {
+      min-width: 25%;
+      max-width: 400px;
+   }
+   .contact__title {
+      font-size: 48px;
+      margin: 0 80px;
+   }
 }

@@ -1,5 +1,6 @@
 function mountFooter(containerEl) {
    const footerEl = document.createElement("div");
+   footerEl.classList.add("footer__container");
    footerEl.innerHTML = `
 <a class="footer__title" href="/">JAE</a>
 <div class="social-links-container">
