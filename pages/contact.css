@@ -9,3 +9,10 @@ body {
    min-height: 90vh;
    padding: 70px 20px;
 }
+@media (min-width: 950px) {
+   .contact__form-container {
+      min-width: 25%;
+      max-width: 400px;
+      padding: 0;
+   }
+}

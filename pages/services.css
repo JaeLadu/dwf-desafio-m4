@@ -9,3 +9,10 @@ body {
    padding: 0 40px;
    overflow: auto;
 }
+@media (min-width: 950px) {
+   .services__container {
+      padding: 100px;
+      display: flex;
+      justify-content: space-between;
+   }
+}

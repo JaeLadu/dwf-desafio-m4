@@ -1,0 +1,43 @@
+.welcome--minimal-blue-and-green {
+   display: grid;
+   grid-template-rows: minmax(90px, 13%) 1fr;
+   height: 200px;
+}
+@media (min-width: 950px) {
+   .welcome--minimal-blue-and-green {
+      height: 90vh;
+      grid-template-rows: minmax(100px, 20%), 1fr;
+
+      background: linear-gradient(
+         107.17deg,
+         #408195 29.35%,
+         rgba(0, 210, 135, 0.8) 78.73%
+      );
+      padding: 0 80px;
+   }
+}
+.welcome--minimal-blue-and-green__content-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+@media (min-width: 950px) {
+   .welcome--minimal-blue-and-green__content-container {
+      flex-direction: row;
+      padding-top: 5%;
+   }
+}
+.welcome--minimal-blue-and-green__title {
+   font-family: "Montserrat", sans-serif;
+   font-weight: 700;
+   text-align: center;
+   font-size: 48px;
+   margin: 10px;
+   color: white;
+}
+@media (min-width: 950px) {
+   .welcome--minimal-blue-and-green__title {
+      text-align: start;
+      margin: 0px 80px;
+   }
+}

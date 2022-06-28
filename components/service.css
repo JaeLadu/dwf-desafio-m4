@@ -6,6 +6,9 @@
    .service--minimal {
       max-width: 20%;
    }
+   .service {
+      max-width: 300px;
+   }
 }
 .service--minimal__logo,
 .service__image {

@@ -3,6 +3,11 @@
    color: white;
    margin-bottom: 55px;
 }
+@media (min-width: 950px) {
+   .job {
+      max-width: 300px;
+   }
+}
 .job__image {
    margin: 0 auto;
    max-height: 180px;
